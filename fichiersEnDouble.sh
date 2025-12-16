@@ -50,11 +50,3 @@ done
 if [[ $compteDeDbl == 0 ]]; then
 	echo "Pas de doublons." # Prompt si il n'y a pas de doublons
 fi
-
-printf "\n\n"
-printf "%s\n" "Dump of the listFichier array:"
-printf "%s\n" "------------------------------"
-
-for k in "${listFichier[@]}"; do
-	printf "%s\n" "$k"
-done
